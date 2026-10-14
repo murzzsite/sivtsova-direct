@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /vikup-ai/blog/preview/
+
+Sitemap: https://murzzsite.github.io/vikup-ai/sitemap.xml

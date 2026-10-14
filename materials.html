@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Материалы под ваш оффер — Реклама с умом</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="doc-header">
+  <div class="container doc-bar">
+    <a href="index.html" class="logo__main"><svg class="logo__mark" width="26" height="26" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="13" stroke="currentColor" stroke-width="2.4"/><circle cx="16" cy="16" r="7.5" stroke="currentColor" stroke-width="2.4"/><circle cx="16" cy="16" r="2.4" fill="currentColor"/></svg><span>Реклама <i>с умом</i></span></a>
+    <div class="doc-bar__actions">
+      <a href="index.html" class="btn btn--ghost btn--sm">На сайт</a>
+    </div>
+  </div>
+</header>
+
+<main class="container doc-hero">
+  <span class="tag">Материалы под ваш оффер</span>
+  <h1>Всё, что закрывает разговор с владельцем бизнеса</h1>
+  <p>Сайт приводит заявки. Доводит до договора разговор. Ниже три материала под ваш оффер: Яндекс Директ и Google Ads для бизнеса с бюджетом от 100 000 ₽, ведение от 40 000 ₽ в месяц, бесплатный разбор рекламы и сайта.</p>
+</main>
+
+<section class="container doc-section">
+  <div class="material-grid">
+    <div class="material-card">
+      <div class="material-card__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M4 4H20V16H8L4 20V4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></div>
+      <h3>Скрипты продаж</h3>
+      <p>Как отвечать на заявку, проводить разбор, называть цену и снимать возражения: «дорого», «нужна гарантия», «у нас уже есть подрядчик», «я подумаю».</p>
+      <a href="scripts.html" class="btn btn--primary btn--block">Открыть</a>
+    </div>
+    <div class="material-card">
+      <div class="material-card__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M8 20H16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+      <h3>Продающая презентация</h3>
+      <p>Оформленный рассказ о ваших услугах с ценами и кейсами, который можно отправить владельцу бизнеса в личные сообщения вместо долгого объяснения.</p>
+      <a href="presentation.html" class="btn btn--primary btn--block">Открыть</a>
+    </div>
+    <div class="material-card">
+      <div class="material-card__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M21 4L2.5 11.5L9 13.5M21 4L17.5 20L9 13.5M21 4L9 13.5" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></div>
+      <h3>Скрипт холодных сообщений</h3>
+      <p>Первое сообщение владельцам бизнеса и маркетологам, ответ на «а вы кто», приглашение на бесплатный разбор рекламы и сайта.</p>
+      <a href="outreach.html" class="btn btn--primary btn--block">Открыть</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__bottom">
+    <span>© <span id="year"></span> Реклама с умом.</span>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
