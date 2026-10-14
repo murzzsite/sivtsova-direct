@@ -1,0 +1,38 @@
+{
+  "siteName": "Реклама с умом",
+  "siteUrl": "https://murzzsite.github.io/sivtsova-direct",
+  "lang": "ru",
+  "repo": "murzzsite/sivtsova-direct",
+  "ref": "HXCGRK65T7",
+  "workerUrl": "https://lead-relay.leestygpt.workers.dev",
+  "blogTitle": "Блог",
+  "blogDescription": "Статьи Реклама с умом о Яндекс Директ и Google Ads: заявки, аналитика, сайт, стоимость лида",
+  "homeTitle": "Полезные статьи",
+  "author": {
+    "name": "Ольга Сивцова",
+    "jobTitle": "Специалист по Яндекс Директ",
+    "type": "Person"
+  },
+  "ctaTitle": "Хотите разобрать свою рекламу?",
+  "ctaText": "Оставьте ссылку на сайт: бесплатно посмотрим рекламу и сайт и покажем, где теряются деньги.",
+  "ctaButton": "Бесплатный разбор",
+  "ctaUrl": "/#contact",
+  "disclaimer": "Материал носит информационный характер. Результаты рекламы зависят от ниши, продукта, цены, сайта и работы отдела продаж и не гарантируются.",
+  "telegramNotify": true,
+  "cadenceDays": 7,
+  "homeLatest": 3,
+  "staticPages": [
+    "/"
+  ],
+  "indexNowKey": "fdea9d84d34505f6168ab207608d4b63",
+  "previewSecret": "8077386f8e987129",
+  "theme": {
+    "accent": "var(--accent)",
+    "accent-soft": "var(--accent-soft)",
+    "bg": "var(--bg)",
+    "surface": "var(--surface)",
+    "ink": "var(--ink)",
+    "soft": "var(--ink-soft)",
+    "line": "var(--border)"
+  }
+}
