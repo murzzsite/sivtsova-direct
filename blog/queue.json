@@ -1,16 +1,14 @@
 {
   "site": "https://murzzsite.github.io/sivtsova-direct",
-  "updated": "2026-10-15",
-  "awaiting": [
+  "updated": "2026-10-16",
+  "awaiting": [],
+  "scheduled": [],
+  "published": [
     {
       "slug": "kak-ocenivat-reklamu-v-yandeks-direkt",
-      "path": "articles/kak-ocenivat-reklamu-v-yandeks-direkt.md",
       "title": "Как оценивать рекламу в Яндекс Директ: почему клики и показы ещё не результат",
-      "description": "Как понять, работает ли реклама в Яндекс Директ: почему клики и показы не результат, какие метрики считать, как связать рекламу с заявками и продажами и где чаще всего теряются деньги.",
-      "reading_time": "8 мин чтения",
-      "preview_url": "https://murzzsite.github.io/sivtsova-direct/blog/preview/09c94fd6550e/kak-ocenivat-reklamu-v-yandeks-direkt/"
+      "url": "https://murzzsite.github.io/sivtsova-direct/blog/kak-ocenivat-reklamu-v-yandeks-direkt/",
+      "date": "2026-10-16"
     }
-  ],
-  "scheduled": [],
-  "published": []
+  ]
 }
