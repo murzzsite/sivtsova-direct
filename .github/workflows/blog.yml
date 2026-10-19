@@ -25,6 +25,10 @@ jobs:
           node-version: 20
       - name: Build blog
         run: node .blog-kit/build.mjs
+      - name: Typography (nbsp)
+        run: |
+          npm i --no-save typograf
+          node typo.mjs
       - name: Notify client / IndexNow
         env:
           BLOG_API_KEY: ${{ secrets.BLOG_API_KEY }}
